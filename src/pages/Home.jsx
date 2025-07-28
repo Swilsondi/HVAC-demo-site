@@ -175,32 +175,32 @@ export default function Home() {
 				whileInView={{ opacity: 1 }}
 				viewport={{ once: true }}
 				transition={{ duration: 0.7, delay: 0.1 }}
-				className="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-2 gap-8 items-center"
+				className="max-w-6xl mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-center gap-12"
 			>
-				<div className="flex flex-col justify-center items-center md:items-start">
-					<h2 className="text-2xl md:text-3xl font-bold mb-4 text-blue-800">
+				<div className="flex-1 flex flex-col justify-center items-center md:items-end">
+					<h2 className="text-2xl md:text-3xl font-bold mb-4 text-blue-800 text-center md:text-right">
 						Why Choose Us?
 					</h2>
-					<ul className="space-y-3 text-gray-700">
-						<li className="flex items-center gap-3">
+					<ul className="space-y-3 text-gray-700 text-center md:text-right">
+						<li className="flex items-center gap-3 justify-center md:justify-end">
 							<FaShieldAlt className="text-blue-600" /> Licensed & Insured Professionals
 						</li>
-						<li className="flex items-center gap-3">
+						<li className="flex items-center gap-3 justify-center md:justify-end">
 							<FaClock className="text-blue-600" /> 24/7 Emergency Service
 						</li>
-						<li className="flex items-center gap-3">
+						<li className="flex items-center gap-3 justify-center md:justify-end">
 							<FaTrophy className="text-yellow-500" /> Award-Winning Customer Care
 						</li>
-						<li className="flex items-center gap-3">
+						<li className="flex items-center gap-3 justify-center md:justify-end">
 							<FaTools className="text-blue-600" /> Upfront Pricing & Quality Workmanship
 						</li>
 					</ul>
 				</div>
-				<div className="flex justify-center items-center">
+				<div className="flex-1 flex justify-center items-center">
 					<img
 						src="https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&w=800&q=80"
 						alt="Plumber at work"
-						className="rounded-lg shadow-lg w-full object-cover max-h-80"
+						className="rounded-lg shadow-lg w-full max-w-xs object-cover max-h-80"
 					/>
 				</div>
 			</motion.section>
@@ -217,14 +217,12 @@ export default function Home() {
 					Brands We Service
 				</h3>
 				<div className="flex flex-wrap justify-center items-center gap-6">
-					{brands.map((logo, i) => (
-						<img
-							key={i}
-							src={logo}
-							alt="Brand logo"
-							className="h-10 object-contain grayscale opacity-80"
-						/>
-					))}
+					{/* Use PNGs for better browser support and reliability */}
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Carrier_logo.svg/200px-Carrier_logo.svg.png" alt="Carrier" className="h-10 object-contain grayscale opacity-80" />
+					<img src="https://1000logos.net/wp-content/uploads/2021/10/Trane-logo.png" alt="Trane" className="h-10 object-contain grayscale opacity-80" />
+					<img src="https://1000logos.net/wp-content/uploads/2021/10/Rheem-logo.png" alt="Rheem" className="h-10 object-contain grayscale opacity-80" />
+					<img src="https://1000logos.net/wp-content/uploads/2021/10/Lennox-logo.png" alt="Lennox" className="h-10 object-contain grayscale opacity-80" />
+					<img src="https://1000logos.net/wp-content/uploads/2021/10/Moen-logo.png" alt="Moen" className="h-10 object-contain grayscale opacity-80" />
 				</div>
 			</motion.section>
 
