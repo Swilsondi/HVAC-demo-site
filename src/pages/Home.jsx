@@ -49,22 +49,22 @@ const brands = [
 const certificates = [
 	{
 		name: "NATE Certified",
-		image: "https://www.natex.org/images/certified-logo.png",
+		image: "https://i.ibb.co/6bQ7Q6d/nate-cert.png",
 		desc: "North American Technician Excellence",
 	},
 	{
 		name: "EPA Certified",
-		image: "https://www.epa.gov/sites/all/themes/epa/logo.png",
+		image: "https://i.ibb.co/6n6wQ7d/epa-cert.png",
 		desc: "Environmental Protection Agency",
 	},
 	{
 		name: "BBB Accredited",
-		image: "https://www.bbb.org/_next/static/media/bbb-accredited-business.2b1e6e7e.svg",
+		image: "https://i.ibb.co/6JkQ7Qd/bbb-cert.png",
 		desc: "Better Business Bureau A+",
 	},
 	{
 		name: "Angi Super Service",
-		image: "https://www.angi.com/images/ssi/2022_SSA_logo.png",
+		image: "https://i.ibb.co/6WkQ7Qd/angi-cert.png",
 		desc: "Angi Super Service Award",
 	},
 ];
@@ -218,7 +218,7 @@ export default function Home() {
 				</h3>
 				<div className="flex flex-wrap justify-center items-center gap-6">
 					{/* Use PNGs for better browser support and reliability */}
-					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Carrier_logo.svg/200px-Carrier_logo.svg.png" alt="Carrier" className="h-10 object-contain grayscale opacity-80" />
+					<img src="https://1000logos.net/wp-content/uploads/2021/10/Carrier-logo.png" alt="Carrier" className="h-10 object-contain grayscale opacity-80" />
 					<img src="https://1000logos.net/wp-content/uploads/2021/10/Trane-logo.png" alt="Trane" className="h-10 object-contain grayscale opacity-80" />
 					<img src="https://1000logos.net/wp-content/uploads/2021/10/Rheem-logo.png" alt="Rheem" className="h-10 object-contain grayscale opacity-80" />
 					<img src="https://1000logos.net/wp-content/uploads/2021/10/Lennox-logo.png" alt="Lennox" className="h-10 object-contain grayscale opacity-80" />
