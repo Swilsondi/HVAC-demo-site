@@ -6,21 +6,18 @@ import { FaTrophy, FaTools, FaPhoneAlt, FaClock, FaShieldAlt, FaAward, FaMapMark
 const services = [
 	{
 		title: "HVAC Installation & Repair",
-		image:
-			"https://images.pexels.com/photos/3768914/pexels-photo-3768914.jpeg?auto=compress&w=600&q=80",
+		image: "/images/pexels-jose-andres-pacheco-cortes-3641213-5463575.jpg",
 		description:
 			"Certified installation and repair for all major HVAC brands. Residential & commercial.",
 	},
 	{
 		title: "Plumbing Solutions",
-		image:
-			"https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&w=600&q=80",
+		image: "/images/pexels-jose-andres-pacheco-cortes-3641213-5463581.jpg",
 		description: "Leak detection, pipe repair, water heaters, and more—done right the first time.",
 	},
 	{
 		title: "24/7 Emergency Response",
-		image:
-			"https://images.pexels.com/photos/1435183/pexels-photo-1435183.jpeg?auto=compress&w=600&q=80",
+		image: "/images/pexels-jose-andres-pacheco-cortes-3641213-5463587.jpg",
 		description: "Rapid response for urgent HVAC & plumbing issues. We’re always on call.",
 	},
 ];
@@ -49,22 +46,22 @@ const brands = [
 const certificates = [
 	{
 		name: "NATE Certified",
-		image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/NATE_logo.svg/320px-NATE_logo.svg.png",
+		image: "/images/pexels-airamdphoto-16592625.jpg",
 		desc: "North American Technician Excellence",
 	},
 	{
 		name: "EPA Certified",
-		image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/EPA_logo.png/320px-EPA_logo.png",
+		image: "/images/pexels-kathleen-austin-kuhn-2152973960-32497161.jpg",
 		desc: "Environmental Protection Agency Certified",
 	},
 	{
 		name: "BBB Accredited",
-		image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/BBB-accredited-business-logo.png/320px-BBB-accredited-business-logo.png",
+		image: "/images/pexels-jose-andres-pacheco-cortes-3641213-5463577.jpg",
 		desc: "Better Business Bureau A+ Rating",
 	},
 	{
 		name: "Angi Super Service",
-		image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Angi_logo.svg/320px-Angi_logo.svg.png",
+		image: "/images/pexels-jose-andres-pacheco-cortes-3641213-5463581.jpg",
 		desc: "Angi Super Service Award Winner",
 	},
 ];
@@ -80,7 +77,7 @@ export default function Home() {
 				className="relative flex flex-col items-center justify-center min-h-[60vh] bg-blue-900 text-white px-4 pt-12 pb-20 overflow-hidden"
 			>
 				<img
-					src="https://images.pexels.com/photos/3768914/pexels-photo-3768914.jpeg?auto=compress&w=1200&q=80"
+					src="/images/pexels-jose-andres-pacheco-cortes-3641213-5463575.jpg"
 					alt="HVAC technician at work"
 					className="absolute inset-0 w-full h-full object-cover opacity-30 z-0"
 				/>
