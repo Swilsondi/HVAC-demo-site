@@ -49,7 +49,7 @@ const brands = [
 const certificates = [
 	{
 		name: "NATE Certified",
-		image: "https://www.natex.org/images/certified-logo.png",
+		image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/NATE_logo.svg/320px-NATE_logo.svg.png",
 		desc: "North American Technician Excellence",
 	},
 	{
@@ -59,12 +59,12 @@ const certificates = [
 	},
 	{
 		name: "BBB Accredited",
-		image: "https://seal-bbb.org/images/seals/blue-seal-250-52-bbb-1536x320.png",
+		image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/BBB-accredited-business-logo.png/320px-BBB-accredited-business-logo.png",
 		desc: "Better Business Bureau A+ Rating",
 	},
 	{
 		name: "Angi Super Service",
-		image: "https://www.angi.com/images/ssi/2022_SSA_logo.png",
+		image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Angi_logo.svg/320px-Angi_logo.svg.png",
 		desc: "Angi Super Service Award Winner",
 	},
 ];
@@ -220,11 +220,11 @@ export default function Home() {
 				</h3>
 				<div className="flex flex-wrap justify-center items-center gap-6">
 					{/* Use PNGs for better browser support and reliability */}
-					<img src="https://1000logos.net/wp-content/uploads/2021/10/Carrier-logo.png" alt="Carrier" className="h-10 object-contain grayscale opacity-80" />
-					<img src="https://1000logos.net/wp-content/uploads/2021/10/Trane-logo.png" alt="Trane" className="h-10 object-contain grayscale opacity-80" />
-					<img src="https://1000logos.net/wp-content/uploads/2021/10/Rheem-logo.png" alt="Rheem" className="h-10 object-contain grayscale opacity-80" />
-					<img src="https://1000logos.net/wp-content/uploads/2021/10/Lennox-logo.png" alt="Lennox" className="h-10 object-contain grayscale opacity-80" />
-					<img src="https://1000logos.net/wp-content/uploads/2021/10/Moen-logo.png" alt="Moen" className="h-10 object-contain grayscale opacity-80" />
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Carrier_logo.svg/320px-Carrier_logo.svg.png" alt="Carrier" className="h-10 object-contain grayscale opacity-80" />
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Trane_logo.svg/320px-Trane_logo.svg.png" alt="Trane" className="h-10 object-contain grayscale opacity-80" />
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Rheem_logo.svg/320px-Rheem_logo.svg.png" alt="Rheem" className="h-10 object-contain grayscale opacity-80" />
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Lennox_logo.svg/320px-Lennox_logo.svg.png" alt="Lennox" className="h-10 object-contain grayscale opacity-80" />
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Moen_logo.svg/320px-Moen_logo.svg.png" alt="Moen" className="h-10 object-contain grayscale opacity-80" />
 				</div>
 			</motion.section>
 
