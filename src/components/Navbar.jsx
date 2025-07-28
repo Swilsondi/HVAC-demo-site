@@ -19,8 +19,8 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
         <Link to="/" className="flex items-center gap-2">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=48&q=80" alt="Logo" className="h-10 w-10 rounded-full" />
-          <span className="font-bold text-xl text-blue-700 tracking-tight">HVAC & Plumbing Pro</span>
+          <img src="https://cdn-icons-png.flaticon.com/512/2933/2933884.png" alt="HVAC Company Logo" className="h-10 w-10 rounded-full bg-blue-100 p-1" />
+          <span className="font-bold text-xl text-blue-700 tracking-tight">BlueRidge HVAC & Plumbing</span>
         </Link>
         <div className="flex gap-6">
           {navLinks.map(link => (
