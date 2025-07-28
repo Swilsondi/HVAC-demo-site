@@ -49,23 +49,23 @@ const brands = [
 const certificates = [
 	{
 		name: "NATE Certified",
-		image: "https://i.ibb.co/6bQ7Q6d/nate-cert.png",
+		image: "https://www.natex.org/images/certified-logo.png",
 		desc: "North American Technician Excellence",
 	},
 	{
 		name: "EPA Certified",
-		image: "https://i.ibb.co/6n6wQ7d/epa-cert.png",
-		desc: "Environmental Protection Agency",
+		image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/EPA_logo.png/320px-EPA_logo.png",
+		desc: "Environmental Protection Agency Certified",
 	},
 	{
 		name: "BBB Accredited",
-		image: "https://i.ibb.co/6JkQ7Qd/bbb-cert.png",
-		desc: "Better Business Bureau A+",
+		image: "https://seal-bbb.org/images/seals/blue-seal-250-52-bbb-1536x320.png",
+		desc: "Better Business Bureau A+ Rating",
 	},
 	{
 		name: "Angi Super Service",
-		image: "https://i.ibb.co/6WkQ7Qd/angi-cert.png",
-		desc: "Angi Super Service Award",
+		image: "https://www.angi.com/images/ssi/2022_SSA_logo.png",
+		desc: "Angi Super Service Award Winner",
 	},
 ];
 
@@ -90,16 +90,17 @@ export default function Home() {
 						{certificates.slice(0, 2).map((cert) => (
 							<div
 								key={cert.name}
-								className="bg-white/90 rounded-lg shadow-md px-3 py-2 flex flex-col items-center border border-blue-100 w-32"
+								className="bg-white/90 rounded-lg shadow-md px-3 py-2 flex flex-col items-center border border-blue-100 w-36"
 							>
 								<img
 									src={cert.image}
 									alt={cert.name}
-									className="h-10 mb-1 object-contain"
+									className="h-12 mb-1 object-contain"
 								/>
 								<span className="text-xs font-semibold text-blue-900 text-center">
 									{cert.name}
 								</span>
+								<span className="text-[10px] text-gray-500 text-center mt-1">{cert.desc}</span>
 							</div>
 						))}
 					</div>
@@ -146,16 +147,17 @@ export default function Home() {
 						{certificates.slice(2, 4).map((cert) => (
 							<div
 								key={cert.name}
-								className="bg-white/90 rounded-lg shadow-md px-3 py-2 flex flex-col items-center border border-blue-100 w-32"
+								className="bg-white/90 rounded-lg shadow-md px-3 py-2 flex flex-col items-center border border-blue-100 w-36"
 							>
 								<img
 									src={cert.image}
 									alt={cert.name}
-									className="h-10 mb-1 object-contain"
+									className="h-12 mb-1 object-contain"
 								/>
 								<span className="text-xs font-semibold text-blue-900 text-center">
 									{cert.name}
 								</span>
+								<span className="text-[10px] text-gray-500 text-center mt-1">{cert.desc}</span>
 							</div>
 						))}
 					</div>
