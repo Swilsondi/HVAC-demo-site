@@ -6,18 +6,18 @@ import { FaTrophy, FaTools, FaPhoneAlt, FaClock, FaShieldAlt, FaAward, FaMapMark
 const services = [
 	{
 		title: "HVAC Installation & Repair",
-		image: "/images/pexels-jose-andres-pacheco-cortes-3641213-5463575.jpg",
+		image: "/images/ac-unit.jpg",
 		description:
 			"Certified installation and repair for all major HVAC brands. Residential & commercial.",
 	},
 	{
 		title: "Plumbing Solutions",
-		image: "/images/pexels-jose-andres-pacheco-cortes-3641213-5463581.jpg",
+		image: "/images/plumbing-wrench.jpg",
 		description: "Leak detection, pipe repair, water heaters, and more—done right the first time.",
 	},
 	{
 		title: "24/7 Emergency Response",
-		image: "/images/pexels-jose-andres-pacheco-cortes-3641213-5463587.jpg",
+		image: "/images/plumbing-outdoors.jpg",
 		description: "Rapid response for urgent HVAC & plumbing issues. We’re always on call.",
 	},
 ];
@@ -46,22 +46,22 @@ const brands = [
 const certificates = [
 	{
 		name: "NATE Certified",
-		image: "/images/pexels-airamdphoto-16592625.jpg",
+		image: "",
 		desc: "North American Technician Excellence",
 	},
 	{
 		name: "EPA Certified",
-		image: "/images/pexels-kathleen-austin-kuhn-2152973960-32497161.jpg",
+		image: "",
 		desc: "Environmental Protection Agency Certified",
 	},
 	{
 		name: "BBB Accredited",
-		image: "/images/pexels-jose-andres-pacheco-cortes-3641213-5463577.jpg",
+		image: "",
 		desc: "Better Business Bureau A+ Rating",
 	},
 	{
 		name: "Angi Super Service",
-		image: "/images/pexels-jose-andres-pacheco-cortes-3641213-5463581.jpg",
+		image: "",
 		desc: "Angi Super Service Award Winner",
 	},
 ];
@@ -89,11 +89,6 @@ export default function Home() {
 								key={cert.name}
 								className="bg-white/90 rounded-lg shadow-md px-3 py-2 flex flex-col items-center border border-blue-100 w-36"
 							>
-								<img
-									src={cert.image}
-									alt={cert.name}
-									className="h-12 mb-1 object-contain"
-								/>
 								<span className="text-xs font-semibold text-blue-900 text-center">
 									{cert.name}
 								</span>
@@ -146,11 +141,6 @@ export default function Home() {
 								key={cert.name}
 								className="bg-white/90 rounded-lg shadow-md px-3 py-2 flex flex-col items-center border border-blue-100 w-36"
 							>
-								<img
-									src={cert.image}
-									alt={cert.name}
-									className="h-12 mb-1 object-contain"
-								/>
 								<span className="text-xs font-semibold text-blue-900 text-center">
 									{cert.name}
 								</span>
